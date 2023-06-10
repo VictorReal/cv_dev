@@ -67,7 +67,7 @@ aside {
 .section_headline {
     text-transform: uppercase;
 }
-.skills, .project-list, .submenu {
+.skills, .project-list, .submenu, .work-list {
     list-style-type: none;
     font-size: 16px;
 }
