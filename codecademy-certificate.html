@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" type="image/svg" href="./pictures/icon4.svg">
+</head>
+<body>
+    <ul id="cert">Codecademy certificates list:
+        <li><a href="./pictures/Codecademy-how-to-code.pdf" target="_blank">How to Code Course</a></li>
+        <li><a href="./pictures/Codecademy-html.pdf" target="_blank">HTML Course</a></li>
+        <li><a href="./pictures/Codecademy-css.pdf" target="_blank">CSS Course</a></li>
+        <li><a href="./pictures/Codecademy-vue.js.pdf" target="_blank">Vue.js Course</a></li>
+        <li><a href="./pictures/Codecademy-js.pdf" target="_blank">JavaScript Course</a></li>
+        <li><a href="./pictures/Codecademy-react.pdf" target="_blank">React Course</a></li>
+
+    </ul>  
+    <div id="bottom-line"><a href="./index.html"><button>back</button></a></div>
+
+    <style>
+        body {
+            background-color: #333a4c;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            gap: 2rem;
+        }
+        #cert {
+            margin: 5vw;
+            padding: 0;        
+            font-size: 30px;
+            line-height: 1.5;
+            color: whitesmoke;
+            list-style-type: none;
+        }
+        a, a:visited{
+            color: whitesmoke;
+            text-decoration: none;            
+        }
+        a:hover{
+            text-decoration:underline;
+        }
+        img {
+            max-width: 900px;
+        }
+        #bottom-line{
+            position: fixed;
+            bottom: 15px;    
+        }
+        button{
+            border: whitesmoke 1px solid;
+            border-radius: 5px;
+            padding: 5px 10px;
+            color: whitesmoke;
+            background-color: #525767;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+        }
+        button:hover{
+            background-color: whitesmoke;
+            color: #333a4c;
+            cursor: pointer;
+        }
+        @media (max-width: 750px) {
+            #cert {
+            margin: 20px auto;          
+            font-size: 26px;
+        }
+        }        
+    </style>
+</body>
+</html>

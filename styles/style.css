@@ -1,0 +1,175 @@
+body { 
+    max-width: 960px;
+
+    height: 2000px;
+
+    font-size: 18px;
+    font-family: arial,sans-serif;
+    background-color: #333a4c;
+}
+header, main {
+    display: flex;
+    flex-direction: row;
+}
+/*1col*/
+
+figure, aside{
+    width: 260px;
+    margin: 30px 0px 0px;  
+}
+#avatar {   
+    border-radius: 50%; 
+    width: 180px;
+    margin: auto; 
+}
+aside {
+    color: whitesmoke;    
+    font-size: 14px;
+}
+.sidebar_headline {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+#contacts, #languages, #education, .education_info{
+    padding-left: 1vw;
+    list-style-type: none;
+}
+.location {   
+    position: relative;
+}
+.location iframe {
+    height: 400px;
+    width: 60vw;
+    left: 0;
+    top: 0;
+}
+#myText, .location{
+    text-decoration: underline;
+}
+#myText:hover, .location:hover{
+    cursor: pointer;
+}
+.linkedLink, .certLink, .certLink:visited, .certLink:hover {
+    color: whitesmoke;
+}
+/*2col*/
+#headline, section {
+    background-color: rgb(248, 248, 248);   
+    width: 660px;
+    padding: 0px 10px;   
+}
+#full_name {
+    font-size: 50px;
+    padding: 35px 0px 15px;
+    text-transform: uppercase;
+}
+.section_headline {
+    text-transform: uppercase;
+}
+.skills, .project-list, .submenu {
+    list-style-type: none;
+    font-size: 16px;
+}
+.menu {
+    cursor: pointer;
+}
+.project-link, .project-link:hover, .project-link:visited{
+    color: black;
+    text-decoration:none;
+}
+
+
+
+
+
+
+@media (max-width: 850px) {
+    header, main {
+        flex-direction: column;
+        align-items: center;
+    }
+    figure, aside, #headline, section{
+        width: 100%;
+        padding: 20px;  
+    }
+    #full_name {
+        font-size: 32px;
+        margin: 0px;
+        padding: 0px;
+        text-transform: uppercase;
+    }
+}
+
+
+
+/*
+
+@media (max-width: 950px) {
+    figure{ 
+        width: 150px;
+    } 
+
+}
+@media (max-width: 850px) {
+    body{
+        min-height: 100vh;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+    #full_name {
+        font-size: 25px;
+    }
+    .sidebar {
+        min-width: 40vw;
+        margin-left: 10px;       
+    }
+    .sidebar_info{
+        font-size: 12px;
+    }
+   .main{
+        margin-right: 10px;
+   }
+   ul{
+        font-size: 15px;
+        padding-left: 20px;
+   }
+}
+@media (min-width: 1600px) {
+    body{
+        font-size: 60px;
+        max-height: 100vh;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+    #full_name {
+        font-size: 100px;
+    }
+    .sidebar {
+        max-width: 50vw;
+        margin-left: 10px;       
+    }
+    .sidebar_info, #main_info{
+        font-size: 42px;
+    }
+    .education_info {
+        font-size: 36px;
+    }
+   .main{
+        margin-right: 10px;
+   }
+   ul{
+        font-size: 46px;
+        padding-left: 20px;
+   }
+   figure{ 
+        width: 600px;
+    } 
+    #avatar{
+        width: 500px;
+    }   
+}

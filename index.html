@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css"/>
+    <link rel="icon" type="image/svg" href="./pictures/icon4.svg">
+</head>
+<body>
+    <header>  
+        <figure><img id="avatar" src="./pictures/photo_2020-04-19_10-54-33.jpg" alt="avatar"></figure>    
+        <div id="headline">
+            <p id="full_name"><b>Victor</b> Nastoyashchiy</p>
+            <p><b>Front-end developer</b></p>
+        </div>
+    </header>
+    <main>
+        <aside>   
+            <p class="sidebar_headline">Contacts</p>
+            <hr>
+            <ul id="contacts">
+                <li>Adress:
+                    <span class="location">
+                        <span onclick="toggleMap()">Vinnytsia, Ukraine</span>
+                        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d166732.96169946837!2d28.329551121690184!3d49.23464931135591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5b65195a6489%3A0xcbd4e159eedd74fe!2z0JLRltC90L3QuNGG0Y8sINCS0ZbQvdC90LjRhtGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgMjEwMDA!5e0!3m2!1suk!2sua!4v1686185638295!5m2!1suk!2sua" width="600" height="450" style="border:0; display: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                  
+                    </span>
+                </li>              
+                <li>Phone: <a class="linkedLink" href="tel:+380678996110">+380-67-899-61-10</a></li>
+                <li><p id="copyButton" onclick="copyContent()">Email: <span id="myText">nastoyashchiy@gmail.com</span></li>
+                <li>LinkedIn: <a class="linkedLink" href="https://www.linkedin.com/in/victor-nastoyashchiy-a78781201/">Victor Nastoyashchiy</a></li>
+                <li>Telegram: <a class="linkedLink" href="https://t.me/victors_reality">victors_reality</a></li>
+                <li>GitHub: <a class="linkedLink" href="https://github.com/VictorReal/">Victor Real</a></li>
+            </ul>
+
+            <p class="sidebar_headline"> Languages</p>
+            <hr>
+            <ul id="languages">
+                <li>Ukrainian - C2 - Native</li>
+                <li>English - B2 - Upper-Intermediate</li>
+                <li>Spanish - A1 - Beginner</li>
+            </ul>
+
+            <p class="sidebar_headline"> Education</p>
+            <hr>  
+            <div id="education"> 
+                <p>Front-End developer</p>
+                <p>Self-study:</p>  
+                <P class="education_info">2023 - in progress</p>
+                    <p class="education_info">HackerRank 
+                <P class="education_info">2022 - in progress</p>
+                <p class="education_info">Codecademy - <a class="certLink" href="./codecademy-certificate.html">certificates</a></p>
+                <p>Courses:</p> 
+                <P class="education_info">2022 - 2023</p>
+                <p class="education_info">Exadel - <a class="certLink" href="./exadel-certificate.html">certificate</a></p>
+                <br>  
+
+                <p>QA Engineer</p>  
+                <p class="education_info">2021</p>
+                <p class="education_info">Main academy courses - <a class="certLink" href="./qa-certificate.html">certificate</a></p>
+                <br>
+                    
+                <p>Master's in Medicine</p>
+                <p class="education_info">2019 - 2021</p>
+                <p class="education_info">Ophthalmological Internship</p>
+                <p class="education_info">2014 - 2019</p>
+                <p class="education_info">National Pirogov Memorial Medical University - <a class="certLink" href="./vnmu-certificate.html">specialist diploma</a></p>
+            </div>
+        </aside>    
+        <section>
+            <div>
+                <p class="section_headline">Skills and Technologies</p>
+                <hr>
+                <ul class="skills">
+                    <li><b>Programming languges and technologies:</b> JavaScript, <!--TypeScript, -->HTML/CSS, Git, GitHub</li>
+                    <li><b>Frameworks and Libraries: </b>React, Node.js, Vue.js, Bootstrap</li>
+                    <!-- <li>Styling: Sass</li>
+                    <li>JavaScript Unit Testing: Mocha</li> -->
+                    <li><b>Development enviroments and tools: </b>Visual Studio Code</li>
+                </ul>
+            </div> 
+            <div>
+                <p class="section_headline">My Projects</p>
+                <hr>
+                <ul class="project-list">
+                    <li>Project: <span>Google search page</span></li>
+                    <li>Technologies: <span>HTML, CSS</span></li>
+                    <li class="menu">Description: </li><span class="submenu" style="display: none;">this is my first website, created by using HTML and CSS,</span>
+                </ul>
+
+                <ul class="project-list">
+                    <li><b>Project: </b>
+                        <a class="project-link" href="https://victorreal.github.io/star-wars/" target="_blank">STAR WARS catalog</a></span></li>
+                    <li class="menu"><b>About the project: ↓</b></li>
+                    <ul class="submenu" style="display: none;">
+                        <li><b>Technologies: </b>HTML, CSS, JavaScript, Web API</li>
+                        <li><b>Description: </b>As a passionate Star Wars fan, I undertook an exciting project to create a catalog of character characteristics from the Star Wars universe. Utilizing my expertise in HTML, CSS, and JavaScript, I developed a dynamic and interactive website that serves as a hub for Star Wars enthusiasts to explore and discover in-depth information about their favorite characters.
+                        <br>
+                        The project was an opportunity for me to strengthen my skills in front-end web development. I demonstrated proficiency in using the Fetch method to efficiently retrieve data from external APIs, ensuring the integration of the character database.</li>
+                    </ul>
+                </ul>
+                
+                
+                <ul class="project-list">
+                    <li>Project: <span>Exchange Rate Calculator</span></li>
+                    <li>Technologies: <span>HTML, CSS, JavaScript</span></li>
+                    <li>Description: <span></span></li>
+
+                </ul>      
+                <ul class="project-list">
+                    <li>Project: <span>Wisdom Generator</span></li>
+                    <li>Technologies: <span>HTML, CSS, JavaScript</span></li>
+                    <li>Description: <span></span></li>                  
+                </ul>  
+            </div><hr>
+            <div>
+                <p class="section_headline">Work Experience</p> 
+                <hr>
+                <ul class="">
+                    <li></li>
+                </ul> 
+            </div>
+        </section>
+    </main>
+        <!--
+    
+             
+        
+    </header>
+    <main>
+        <ul class="contacts">
+            <li>Adress: Vinnytsia, Ukraine</li>
+            <li>Phone: <a class="linkedLink" href="tel:+380678996110">+380-67-899-61-10</a></li>
+            <li>
+                <p id="copyButton" onclick="copyContent()">Email: <span id="myText">nastoyashchiy@gmail.com</span>
+            </li>      <p>My projects: <a class="linkedLink" href="https://victorreal.github.io/list-of-projects/">here</a> </p>
+        </ul>
+        <ul class="contacts">
+            <li>LinkedIn: <a class="linkedLink" href="https://www.linkedin.com/in/victor-nastoyashchiy-a78781201/">Victor Nastoyashchiy</a></li>
+            <li>Telegram: <a class="linkedLink" href="https://t.me/victors_reality">victors_reality</a></li>
+            <li>GitHub: <a class="linkedLink" href="https://github.com/VictorReal/">Victor Real</a></li> 
+            <li>My projects: <a class="linkedLink" href="https://victorreal.github.io/list-of-projects/">here</a> </li>
+            </ul>
+ 
+   
+     
+            
+
+            
+   
+        </div>   <div>
+            <p class="skills_headline">Education</p>
+           
+        </div><div>
+            <p class="skills_headline">My Projects</p>
+        </div>
+        <div>
+            <p class="skills_headline">Work Experience</p>
+        </div>
+
+    <!--
+    <aside class="sidebar">         
+        
+        <br>
+        <p class="sidebar_headline">Contacts </p>
+        <hr>
+        
+        <br>        
+        <p class="sidebar_headline">Education</p>
+        <hr>
+        
+    </aside>    
+    
+            
+            <p>My projects: <a class="linkedLink" href="https://victorreal.github.io/list-of-projects/">here</a> </p>
+        <p id="main_info"><b>About me:</b> I'm a developer, who specializes in coding and building website elements and features, currently looking for a full-time position to expand my skillset.
+            </p>
+        </div>
+        <div class="skills">
+          
+    
+  
+        </div>   
+    </main>  -->        
+</body>
+<script src="./code.js" type="text/javascript"></script>
+</html>
