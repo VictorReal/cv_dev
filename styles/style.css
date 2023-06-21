@@ -77,7 +77,7 @@ aside {
 }
 .project-link:hover {
     color: black;
-
+    text-decoration: underline;
 }
 
 
@@ -99,74 +99,35 @@ aside {
 }
 
 
-
-/*
-
-@media (max-width: 950px) {
-    figure{ 
-        width: 150px;
-    } 
-
-}
-@media (max-width: 850px) {
-    body{
-        min-height: 100vh;
-    }
-    .skills {
-        display: flex;
-        flex-direction: column;
-    }
-    #full_name {
-        font-size: 25px;
-    }
-    .sidebar {
-        min-width: 40vw;
-        margin-left: 10px;       
-    }
-    .sidebar_info{
-        font-size: 12px;
-    }
-   .main{
-        margin-right: 10px;
-   }
-   ul{
-        font-size: 15px;
-        padding-left: 20px;
-   }
-}
 @media (min-width: 1600px) {
-    body{
-        font-size: 60px;
-        max-height: 100vh;
+    body { 
+        max-width: 1960px;
+        font-size: 65px;
     }
-    .skills {
-        display: flex;
-        flex-direction: column;
+    figure, aside{
+        width: 1260px;
+        margin: 30px 0px 0px;  
     }
-    #full_name {
-        font-size: 100px;
+    #avatar {   
+        width: 400px; 
     }
-    .sidebar {
-        max-width: 50vw;
-        margin-left: 10px;       
-    }
-    .sidebar_info, #main_info{
-        font-size: 42px;
-    }
-    .education_info {
+    aside {   
         font-size: 36px;
     }
-   .main{
-        margin-right: 10px;
-   }
-   ul{
-        font-size: 46px;
-        padding-left: 20px;
-   }
-   figure{ 
-        width: 600px;
-    } 
-    #avatar{
-        width: 500px;
-    }   
+    .sidebar_headline {
+        font-size: 42px;
+    }
+    .location iframe {
+        height: 1400px;
+        width: 60vw;
+    }
+    #headline, section {  
+        width: 1660px; 
+    }
+    #full_name {
+        font-size: 80px;
+    }
+    .skills, .project-list, .submenu, .work-list {
+        font-size: 48px;
+    }  
 }
