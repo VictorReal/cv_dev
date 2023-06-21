@@ -81,9 +81,6 @@ aside {
 }
 
 
-
-
-
 @media (max-width: 850px) {
     header, main {
         flex-direction: column;
