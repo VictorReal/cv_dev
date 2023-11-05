@@ -63,7 +63,12 @@ aside {
     text-transform: uppercase;
 }
 .section_headline {
-    text-transform: uppercase;
+    text-transform: uppercase;   
+}
+.section_headline a, .section_headline a:hover, .section_headline a:visited{
+   color: inherit;
+   text-decoration: none;
+    
 }
 .skills, .project-list, .submenu, .work-list {
     list-style-type: none;
