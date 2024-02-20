@@ -29,7 +29,7 @@ aside {
     font-size: 16px;
     padding-left: 5px;
 }
-#contacts, #languages, #education, .education_info {
+#contacts, #languages, #hobbies, #education, .education_info {
     padding-left: 1vw;
     list-style-type: none;
 }
